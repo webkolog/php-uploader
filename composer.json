@@ -1,0 +1,17 @@
+{
+    "name": "webkolog/php-uploader",
+    "description": "W-PHP Uploader and Image Uploader Component",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "classmap": [
+            "uploader.php",
+            "image-uploader.php"
+        ]
+    }
+}
